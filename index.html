@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Auto Form</h1>
+      <form id="myForm">
+        <div class="form-group">
+          <label for="nameInput">Name:</label>
+          <input type="text" class="form-control" id="nameInput" name="nameInput">
+        </div>
+        <div class="form-group">
+          <label for="emailInput">Email:</label>
+          <input type="email" class="form-control" id="emailInput" name="emailInput" readonly>
+        </div>
+        <div class="form-group">
+          <label for="telInput">Phone number:</label>
+          <input type="tel" class="form-control" id="telInput" name="telInput" readonly>
+        </div>
+        <div class="form-group">
+          <label for="numberInput">Moyenne general:</label>
+          <input type="number" class="form-control" id="numberInput" name="numberInput" readonly>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
